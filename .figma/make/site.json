@@ -1,0 +1,10 @@
+{
+  "description": "Presenta información de EDEQ sobre servicios, canales y horarios de atención, noticias y compromiso ambiental para ayudar a usuarios a conocer y acceder a sus servicios.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

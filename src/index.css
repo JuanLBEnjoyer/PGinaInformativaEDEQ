@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  /* Variantes cromaticas inspiradas en el logotipo institucional de EDEQ */
+  /* Verde botanico y brote cafetero (identidad principal) */
+  --color-edeq-forest: #082d21;
+  --color-edeq-pine: #0d4432;
+  --color-edeq-green: #00853e;
+  --color-edeq-green-hover: #006e33;
+  --color-edeq-lime: #78be20;
+  --color-edeq-green-soft: #eaf6ee;
+
+  /* Azul hidro-ceruleo y petroleo andino (confiabilidad y agua) */
+  --color-edeq-navy: #0a3d62;
+  --color-edeq-blue: #007fc4;
+  --color-edeq-blue-hover: #0068a3;
+  --color-edeq-cyan: #29a9e1;
+  --color-edeq-blue-soft: #e8f4fb;
+
+  /* Naranja ambar-mandarina solar (cercania y calidez energetica) */
+  --color-edeq-amber-deep: #b85600;
+  --color-edeq-orange: #f39200;
+  --color-edeq-orange-warm: #e87722;
+  --color-edeq-orange-soft: #fef4e6;
+
+  /* Superficies neutras calidas */
+  --color-surface-canvas: #f6f9f7;
+  --color-surface-card: #ffffff;
+  --color-surface-muted: #edf2ef;
+  --color-ink-primary: #0f261f;
+  --color-ink-secondary: #3f574f;
+  --color-ink-muted: #647b73;
+
+  /* Tipografia */
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-ink-primary);
+    background-color: var(--color-surface-canvas);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
